@@ -3,8 +3,8 @@
     "body": "<noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root_$MFID$\"></div>",
     "scripts": [
       "applets/applet1/embedded-1e71fe71954428753380c09c860751829268bb14.js",
-      "applets/applet1/static/js/1.6105a37c.chunk.js",
-      "applets/applet1/static/js/main.fca4e889.chunk.js"
+      "applets/applet1/static/js/1.8605aebd.chunk.js",
+      "applets/applet1/static/js/main.a50bb9f8.chunk.js"
     ],
     "styles": [
       "applets/applet1/static/css/main.4a4a01ed.chunk.css"
@@ -14,8 +14,8 @@
     "body": "<noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root_$MFID$\"></div>",
     "scripts": [
       "applets/applet2/embedded-1e71fe71954428753380c09c860751829268bb14.js",
-      "applets/applet2/static/js/1.6105a37c.chunk.js",
-      "applets/applet2/static/js/main.a1469a93.chunk.js"
+      "applets/applet2/static/js/1.8605aebd.chunk.js",
+      "applets/applet2/static/js/main.b5852b89.chunk.js"
     ],
     "styles": [
       "applets/applet2/static/css/main.7a0cc0c9.chunk.css"

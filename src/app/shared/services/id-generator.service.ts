@@ -11,6 +11,6 @@ export class IdGenerator {
 
   next(): string {
     ++this._id;
-    return this._id.toString(16);
+    return `APP_${this._id.toString(16)}`;
   }
 }

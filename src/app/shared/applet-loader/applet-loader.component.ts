@@ -61,4 +61,9 @@ export class AppletLoaderComponent implements OnInit, OnDestroy {
     // 不要忘了销毁控件时也要卸载样式
     this.styleLoader.unload(this.style);
   }
+
+  sayHello(message: string): void {
+    const messenger = window[`messenger@${this.id}`];
+    messenger.sayHello(message);
+  }
 }

@@ -9,6 +9,6 @@ export class MacroExpander {
   }
 
   expand(content: string, variables: { id: string }): string {
-    return content.replace(/\$MFID\$/g, `APP_${variables.id}`);
+    return content.replace(/\$MFID\$/g, `${variables.id}`);
   }
 }
