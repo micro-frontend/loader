@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ReactAComponent } from './react-a/react-a.component';
 import { ReactAAndBComponent } from './react-a-and-b/react-a-and-b.component';
+import { AppletBuilderComponent } from './applet-builder/applet-builder.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'react-a-and-b',
     component: ReactAAndBComponent,
+  },
+  {
+    path: 'applet-builder',
+    component: AppletBuilderComponent,
   },
 ];
 
