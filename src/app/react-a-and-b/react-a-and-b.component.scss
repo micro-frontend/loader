@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+}
+
+app-applet-loader {
+  flex: auto;
+  border: 1px solid green;
+  margin: 8px;
+}
