@@ -5,6 +5,11 @@ import { ReactAAndBComponent } from './react-a-and-b/react-a-and-b.component';
 
 const routes: Routes = [
   {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: '/react-a',
+  },
+  {
     path: 'react-a',
     component: ReactAComponent,
   },
@@ -16,7 +21,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {
 }
