@@ -8,6 +8,7 @@ import { ReactAAndBComponent } from './react-a-and-b/react-a-and-b.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './shared/shared.module';
 import { AppletBuilderComponent } from './applet-builder/applet-builder.component';
+import { IframeNgAComponent } from './iframe-ng-a/iframe-ng-a.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AppletBuilderComponent } from './applet-builder/applet-builder.componen
     ReactAComponent,
     ReactAAndBComponent,
     AppletBuilderComponent,
+    IframeNgAComponent,
   ],
   imports: [
     BrowserModule,
